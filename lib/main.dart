@@ -22,7 +22,7 @@ class EnterGameDetail extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.pink.shade900,
-        centerTitle: true,
+        centerTitle: false,
         title: Text(
           'TIC TAC TOE',
           style: TextStyle(
