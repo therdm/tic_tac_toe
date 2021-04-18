@@ -10,6 +10,12 @@ class TTTBoard extends StatelessWidget {
         return Container(
           width: data.boardWidth,
           height: data.boardWidth,
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage('assets/tttbbg.jpg'),
+              fit: BoxFit.cover,
+            ),
+          ),
           child: Stack(
             children: <Widget>[
               GridView.count(

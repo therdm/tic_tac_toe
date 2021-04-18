@@ -9,7 +9,7 @@ class ResetButton extends StatelessWidget {
       onPressed: Provider.of<BoardBrain>(context, listen: false).resetBoard,
       color: Colors.blue,
       child: Text(
-        'RESET',
+        Provider.of<BoardBrain>(context).isStopBoard ? 'PLAY AGAIN' : 'RESET',
         style: TextStyle(
           color: Colors.white,
         ),
@@ -17,3 +17,4 @@ class ResetButton extends StatelessWidget {
     );
   }
 }
+//

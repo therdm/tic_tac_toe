@@ -22,6 +22,12 @@ class MyGamePage extends StatelessWidget {
         value: BoardBrain(MediaQuery.of(context).size.shortestSide - 8),
         child: Scaffold(
           body: Container(
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage('assets/tttbg.jpg'),
+                fit: BoxFit.cover,
+              ),
+            ),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               mainAxisSize: MainAxisSize.max,

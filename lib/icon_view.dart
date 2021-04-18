@@ -16,6 +16,7 @@ class IconView extends StatelessWidget {
     return Container(
       padding: EdgeInsets.all(4),
       decoration: BoxDecoration(
+        color: Colors.white,
         border: Border.all(color: borderColor),
       ),
       child: Icon(
