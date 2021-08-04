@@ -1,8 +1,10 @@
 # tic_tac_toe
 
-A simple tic tac toe game.
+A simple tic tac toe game made with flutter
 
+# Screenshots
 
+<a href="https://postimg.cc/sMKwWNHM" target="_blank"><img src="https://i.postimg.cc/0N13Tgp0/screenshot1.jpg" alt="screenshot1"/></a> <a href="https://postimg.cc/SXsVffHD" target="_blank"><img src="https://i.postimg.cc/5t5G1Pgd/screenshot2.jpg" alt="screenshot2"/></a> 
 
 ## Getting Started
 
